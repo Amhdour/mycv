@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import SocialShareV1 from "../social/SocialShareV1";
 import illustration1 from "/assets/img/illustration/2Copy.jpeg";
-import shape1 from "/assets/img/shape/1.png";
 import shape3 from "/assets/img/shape/3.png";
 import { ReactTyped } from "react-typed";
 
@@ -67,7 +66,6 @@ const BannerV1 = () => {
                                         src={illustration1}
                                         alt="Image Not Found"
                                     />
-                                    <img src={shape1} alt="Image Not Found" />
                                     <img src={shape3} alt="Image Not Found" />
                                 </div>
                             </div>
