@@ -20,6 +20,8 @@ import RoutesScrollToTop from './components/utilities/RoutesScrollToTop';
 import Dependency from './components/utilities/Dependency';
 import { useEffect, useState } from 'react';
 import Preloader from './components/utilities/Preloader';
+import ThemeToggle from './components/theme/ThemeToggle';
+import './assets/css/theme-toggle.css';
 
 function App() {
 
@@ -40,6 +42,7 @@ function App() {
           <RoutesScrollToTop />
           <ToastContainer />
           <Dependency />
+          <ThemeToggle />
         </>
       }
     </>
