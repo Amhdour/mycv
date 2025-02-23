@@ -5,9 +5,10 @@ import { ReactTyped } from "react-typed";
 
 const BannerV1 = () => {
     const textLines = [
-        '<b className="">Web Developer</b>',
-        '<b className="">UI/UX Designer</b>',
+        '<b className="">Natural Language Processing Engineer</b>',
+        '<b className="">AI Enthusiast</b>',
         '<b className="">Professional Dev</b>',
+        '<b className="">Problem Solver</b>',
     ];
 
     return (
