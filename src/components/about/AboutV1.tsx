@@ -58,73 +58,63 @@ const AboutV1 = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="about-content">
-                            <h2>About Me</h2>
+                            <h2>Professional Overview</h2>
                             <p>
-                                As a skilled NLP Engineer, I specialize in
-                                building models that can process, analyze, and
-                                generate natural language. My expertise spans
-                                various domains, including:
+                                As a Natural Language Processing Engineer, I develop sophisticated 
+                                machine learning models for language understanding and generation. 
+                                My expertise encompasses:
+                            </p>
+                            <ul>
+                                <li>Advanced Text Classification Systems</li>
+                                <li>Enterprise-grade Sentiment Analysis</li>
+                                <li>Intelligent Conversational Systems</li>
+                                <li>Data-driven Marketing Solutions</li>
+                                <li>Advanced Search Optimization</li>
+                                <li>Automated Content Generation</li>
+                                <li>Real-time Social Analytics</li>
+                                <li>Customer Intelligence Systems</li>
+                                <li>Predictive Market Analytics</li>
+                                <li>Marketing Automation Solutions</li>
+                                <li>AI-powered Recommendation Engines</li>
+                            </ul>
+                            <p>Healthcare Technology Innovation:</p>
+                            <ul>
+                                <li>Automated Medical Documentation</li>
+                                <li>Intelligent Transcription Systems</li>
+                                <li>Healthcare Experience Analytics</li>
+                                <li>Medical Virtual Assistants</li>
+                                <li>Epidemiological Prediction Models</li>
+                                <li>AI-assisted Drug Research</li>
+                                <li>Precision Medicine Solutions</li>
+                                <li>Healthcare Process Automation</li>
+                                <li>AI-powered Diagnostic Support</li>
+                                <li>Clinical Research Optimization</li>
+                            </ul>
+                            <p>
+                                Technical Expertise in Full-Stack Development:
                             </p>
                             <ul>
                                 <li>
-                                    Text Classification & Sentiment Analysis
-                                </li>
-                                <li>Sentiment Analysis for Brand Monitoring</li>
-                                <li>Chatbots for Customer Service</li>
-                                <li>Personalized Marketing Campaigns</li>
-                                <li>Voice Search Optimization</li>
-                                <li>Content Generation</li>
-                                <li>Social Media Monitoring</li>
-                                <li>Customer Feedback Analysis</li>
-                                <li>Market Trend Analysis</li>
-                                <li>Email Marketing Optimization</li>
-                                <li>Ad Targeting and Recommendation Systems</li>
-                            </ul>
-                            <p>In the healthcare sector, my work includes:</p>
-                            <ul>
-                                <li>Clinical Documentation</li>
-                                <li>Medical Transcription</li>
-                                <li>Sentiment Analysis for Patient Feedback</li>
-                                <li>Chatbots for Patient Interaction</li>
-                                <li>
-                                    Predictive Analytics for Disease Outbreaks
-                                </li>
-                                <li>Drug Discovery and Development</li>
-                                <li>Personalized Medicine</li>
-                                <li>Automated Coding and Billing</li>
-                                <li>Symptom Checkers</li>
-                                <li>Clinical Trial Matching</li>
-                            </ul>
-                            <p>
-                                In addition to my NLP work, I have extensive
-                                experience in full-stack development, enabling
-                                me to design and implement end-to-end solutions.
-                                My tech stack includes:
-                            </p>
-                            <ul>
-                                <li>
-                                    <strong>Frontend:</strong> React,
-                                    TypeScript, HTML5, CSS3
+                                    <strong>Frontend Architecture:</strong> React, TypeScript, 
+                                    Modern HTML5/CSS3
                                 </li>
                                 <li>
-                                    <strong>Backend:</strong> Node.js, Express,
+                                    <strong>Backend Systems:</strong> Node.js, Express, 
                                     Python (Flask/Django)
                                 </li>
                                 <li>
-                                    <strong>Databases:</strong> MongoDB,
+                                    <strong>Database Technologies:</strong> MongoDB, 
                                     PostgreSQL, MySQL
                                 </li>
                                 <li>
-                                    <strong>Cloud Services:</strong> AWS, Google
+                                    <strong>Cloud Infrastructure:</strong> AWS, Google 
                                     Cloud, Azure
                                 </li>
                             </ul>
                             <p>
-                                My passion lies at the intersection of these
-                                fields, where I can leverage my full-stack
-                                background to build robust, scalable
-                                applications powered by cutting-edge NLP
-                                technologies.
+                                My expertise lies in bridging advanced NLP technologies 
+                                with robust software engineering practices to deliver 
+                                scalable, enterprise-grade solutions that drive business value.
                             </p>
                             <Link to="/contact" className="btn btn-primary">
                                 Contact Me
