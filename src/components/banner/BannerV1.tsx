@@ -5,7 +5,7 @@ import { ReactTyped } from "react-typed";
 
 const BannerV1 = () => {
     const textLines = [
-        '<b className="">Natural Language Processing Engineer</b>',
+        '<b className="">Natural Language </br> Processing Engineer</b>',
         '<b className="">AI Enthusiast</b>',
         '<b className="">Professional Dev</b>',
         '<b className="">Problem Solver</b>',
@@ -19,7 +19,7 @@ const BannerV1 = () => {
                         <div className="col-lg-12">
                             <div className="banner-style-one-items">
                                 <div className="info">
-                                    <h1>I👋 am Dalton </h1>
+                                    <h1>I👋 am Amhdour </h1>
                                     <h2>
                                         <span
                                             className="header-caption"
@@ -39,12 +39,16 @@ const BannerV1 = () => {
                                         </span>
                                     </h2>
                                     <p>
-                                        Hi, my name is Dalton Grant and I began
-                                        using WordPress when it first began.
-                                        I’ve spent most of my waking hours for
-                                        the last ten years designing,
-                                        programming and operating WordPress
-                                        sites.
+                                        Hi, I am Ahmed Amhdour, I am an NLP
+                                        Engineer with a background in web
+                                        development, driven by a passion for
+                                        building intelligent systems that
+                                        comprehend and generate human language.
+                                        With extensive experience in both
+                                        backend and frontend development, I
+                                        offer a unique combination of skills
+                                        that seamlessly connect data science and
+                                        software engineering.
                                     </p>
                                     <div className="flex-social mt-40">
                                         <div className="button">
