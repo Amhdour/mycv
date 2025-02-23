@@ -1,25 +1,24 @@
-import { useEffect, useState } from 'react';
-import shape3 from "/assets/img/shape/3.png"
-import shape8 from "/assets/img/shape/8.png"
-import team14 from "/assets/img/team/14.jpg"
-import team15 from "/assets/img/team/15.jpg"
-import team16 from "/assets/img/team/16.jpg"
-import team17 from "/assets/img/team/17.jpg"
-import about1 from "/assets/img/about/1.jpg"
-import about2 from "/assets/img/about/2.jpg"
-import CountUp from 'react-countup';
-import ModalVideo from 'react-modal-video';
+import { useEffect, useState } from "react";
+import shape3 from "/assets/img/shape/3.png";
+import shape8 from "/assets/img/shape/8.png";
+import team14 from "/assets/img/team/14.jpg";
+import team15 from "/assets/img/team/15.jpg";
+import team16 from "/assets/img/team/16.jpg";
+import team17 from "/assets/img/team/17.jpg";
+import about1 from "/assets/img/about/1.jpg";
+import about2 from "/assets/img/about/2.jpg";
+import CountUp from "react-countup";
+import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const AboutV1 = () => {
-
     // Modal Video
     const [isOpen, setOpen] = useState(false);
 
-    // Scroll Animation 
+    // Scroll Animation
     useEffect(() => {
         const upDown_Scroll = document.querySelector(".upDownScrol");
 
@@ -46,74 +45,95 @@ const AboutV1 = () => {
     }, []);
 
     return (
-        <>
-            <div id="about" className="about-style-one-area bg-gray default-padding">
-                <div className="shape-style-one">
-                    <img src={shape3} alt="Image Not Found" />
-                    <img className="upDownScrol" src={shape8} alt="Image Not Found" />
-                </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="fun-fact-style-one-items">
-                                <div className="fun-fact">
-                                    <div className="counter">
-                                        <div className="timer"> <CountUp end={12} enableScrollSpy={true} /></div>
-                                        <div className="operator">+</div>
-                                    </div>
-                                    <span className="medium">Years of Experience</span>
-                                </div>
-                                <div className="fun-fact">
-                                    <div className="counter">
-                                        <div className="timer"><CountUp end={138} enableScrollSpy={true} /></div>
-                                        <div className="operator">+</div>
-                                    </div>
-                                    <span className="medium">Projects completed on 30 countries</span>
-                                </div>
-                            </div>
-                            <div className="clieents-list mt-40">
-                                <div className="d-flex">
-                                    <div className="thumb">
-                                        <img src={team14} alt="Image Not Found" />
-                                        <img src={team15} alt="Image Not Found" />
-                                        <img src={team16} alt="Image Not Found" />
-                                        <img src={team17} alt="Image Not Found" />
-                                    </div>
-                                    <div className="info">
-                                        <h5>20K+ Clients</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-7 pl-80 pl-md-15 pl-xs-15">
-                            <div className="about-style-one-info">
-                                <p>
-                                    As a skilled web developer, I specialize in creating responsive, user-friendly websites with a focus on modern design and efficient code. I excel in front-end development, with a deep understanding of HTML, CSS, JavaScript, and various frameworks. My passion is turning ideas into functional and aesthetically pleasing digital experiences.
-                                </p>
-                                <Link className="btn-style-regular btn-border" to="#" ><span>Learn More</span> <i className="fas fa-arrow-right" /></Link>
-                            </div>
+        <section className="about-section">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-6">
+                        <div className="about-image">
+                            <img src={about1} alt="About" />
+                            <img src={about2} alt="About" className="shape-1" />
+                            <img src={shape3} alt="Shape" className="shape-2" />
+                            <img src={shape8} alt="Shape" className="shape-3" />
                         </div>
                     </div>
-                    <div className="about-style-one-bottom-info mt-50">
-                        <div className="row">
-                            <div className="col-lg-8 pr-60 pr-md-15 pr-xs-15">
-                                <div className="img-container">
-                                    <img src={about1} alt="Image Not Found" />
-                                    <Link to="#" className="popup-youtube video-play-button" onClick={() => setOpen(true)} >
-                                        <i className="fas fa-play" />
-                                        <div className="effect" />
-                                    </Link>
-                                    <ModalVideo channel='youtube' isOpen={isOpen} videoId="aTC_RNYtEb0" onClose={() => setOpen(false)} />
-                                </div>
-                            </div>
-                            <div className="col-lg-4">
-                                <img src={about2} alt="Image Not Found" />
-                            </div>
+                    <div className="col-lg-6">
+                        <div className="about-content">
+                            <h2>About Me</h2>
+                            <p>
+                                As a skilled NLP Engineer, I specialize in
+                                building models that can process, analyze, and
+                                generate natural language. My expertise spans
+                                various domains, including:
+                            </p>
+                            <ul>
+                                <li>
+                                    Text Classification & Sentiment Analysis
+                                </li>
+                                <li>Sentiment Analysis for Brand Monitoring</li>
+                                <li>Chatbots for Customer Service</li>
+                                <li>Personalized Marketing Campaigns</li>
+                                <li>Voice Search Optimization</li>
+                                <li>Content Generation</li>
+                                <li>Social Media Monitoring</li>
+                                <li>Customer Feedback Analysis</li>
+                                <li>Market Trend Analysis</li>
+                                <li>Email Marketing Optimization</li>
+                                <li>Ad Targeting and Recommendation Systems</li>
+                            </ul>
+                            <p>In the healthcare sector, my work includes:</p>
+                            <ul>
+                                <li>Clinical Documentation</li>
+                                <li>Medical Transcription</li>
+                                <li>Sentiment Analysis for Patient Feedback</li>
+                                <li>Chatbots for Patient Interaction</li>
+                                <li>
+                                    Predictive Analytics for Disease Outbreaks
+                                </li>
+                                <li>Drug Discovery and Development</li>
+                                <li>Personalized Medicine</li>
+                                <li>Automated Coding and Billing</li>
+                                <li>Symptom Checkers</li>
+                                <li>Clinical Trial Matching</li>
+                            </ul>
+                            <p>
+                                In addition to my NLP work, I have extensive
+                                experience in full-stack development, enabling
+                                me to design and implement end-to-end solutions.
+                                My tech stack includes:
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>Frontend:</strong> React,
+                                    TypeScript, HTML5, CSS3
+                                </li>
+                                <li>
+                                    <strong>Backend:</strong> Node.js, Express,
+                                    Python (Flask/Django)
+                                </li>
+                                <li>
+                                    <strong>Databases:</strong> MongoDB,
+                                    PostgreSQL, MySQL
+                                </li>
+                                <li>
+                                    <strong>Cloud Services:</strong> AWS, Google
+                                    Cloud, Azure
+                                </li>
+                            </ul>
+                            <p>
+                                My passion lies at the intersection of these
+                                fields, where I can leverage my full-stack
+                                background to build robust, scalable
+                                applications powered by cutting-edge NLP
+                                technologies.
+                            </p>
+                            <Link to="/contact" className="btn btn-primary">
+                                Contact Me
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 
