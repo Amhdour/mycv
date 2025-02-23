@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../../assets/css/banner.css";
 import SocialShareV1 from "../social/SocialShareV1";
 import illustration1 from "/assets/img/illustration/2Copy.jpeg";
 import { ReactTyped } from "react-typed";
